@@ -6,7 +6,7 @@ let initialUsersTable = [
     surname: "Mackay",
     email: "helenMac@yahoo.co.uk",
   },
-  ,
+
   {
     name: "Blake",
     surname: "Lawrence",

@@ -5,7 +5,7 @@ async function createUsersTable() {
     `CREATE TABLE IF NOT EXISTS users (id SERIAL PRIMARY KEY, name TEXT, surname TEXT, email TEXT);`
   );
 
-  console.log(response);
+  console.log(response.rows);
   console.log("users table created succesfully");
 }
 
