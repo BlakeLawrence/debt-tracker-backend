@@ -8,6 +8,7 @@
     "db:createUsersTable": "node -r dotenv/config ./db/scripts/users/createUsers.js",
     "db:createFinancialsTable": "node -r dotenv/config ./db/scripts/financials/createFinancials.js",
     "db:populateUsersTable": "node -r dotenv/config ./db/scripts/users/populateUsers.js",
+    "db:populateFinancialsTable": "node -r dotenv/config ./db/scripts/financials/populateFinancials.js",
     "db:dropUsersTable": "node -r dotenv/config ./db/scripts/users/dropUsers.js",
     "start": "nodemon -r dotenv/config server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
